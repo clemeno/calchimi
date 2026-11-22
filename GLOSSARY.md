@@ -53,6 +53,14 @@ _Avoid_: Map, level, base
 **Garden**:
 The place on the Plot where the PC grows plants for Resources.
 
+**Bed**:
+A fixed patch in the Garden where one plant grows.
+_Avoid_: Plot (the whole property), field, slot, tile
+
+**Seed**:
+What the PC buys with Coins and plants in a Bed to grow one kind of plant.
+_Avoid_: Sapling, cutting
+
 **Mine**:
 A place where the PC extracts mineral Resources.
 _Avoid_: Cave (as a separate place)
@@ -72,7 +80,7 @@ _Avoid_: Office, clinic
 ### Production
 
 **Resource**:
-A raw material gathered from the Garden or the Mine.
+A material that is not a Remedy: gathered from the Garden or the Mine, or made from other Resources by a Process (e.g. dried peppermint leaf).
 _Avoid_: Ingredient, material, item
 
 **Process**:
@@ -82,6 +90,14 @@ _Avoid_: Recipe, craft
 **Remedy**:
 A product of the Laboratory dispensed to a Patient to treat an Ailment.
 _Avoid_: Medicine (clashes with the Speciality), potion, drug
+
+**Batch**:
+One run of a Process at a Setup, turning a chosen quantity of Resources into its output over a fixed time.
+_Avoid_: Job, craft, order
+
+**Stock**:
+Everything the PC holds: Resources and Remedies.
+_Avoid_: Inventory, storage, bag
 
 ### Patients
 
@@ -96,5 +112,5 @@ _Avoid_: Disease, illness, condition, problem
 ### Economy
 
 **Coin**:
-The single currency: Patients pay in Coins; seeds and Setups cost Coins.
+The single currency: Patients pay in Coins; Seeds and Setups cost Coins.
 _Avoid_: Gold (reserved for the Alchemy material), money, credits

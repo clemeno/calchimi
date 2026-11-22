@@ -1,5 +1,13 @@
 # calchimi
 
+## Project knowledge
+
+Write project knowledge into the repo (`AGENTS.md`, `GLOSSARY.md`, `docs/`) or the issue tracker, and commit it: the project is worked on from several computers. Agent-local memory holds only facts about one machine.
+
+## Devices
+
+From a 4K fullscreen desktop (keyboard and mouse, including WASD / ZQSD / arrow-key movement) through laptop and tablet to a touch-screen smartphone. Every UI, camera, input and performance choice works at both ends.
+
 ## Agent skills
 
 ### Issue tracker
